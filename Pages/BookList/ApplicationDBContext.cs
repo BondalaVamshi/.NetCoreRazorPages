@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace RazorPagesSample.Pages.BookList
 {
-    public class ApplicationDBContext
+    public class ApplicationDBContext:DBContext
     {
         public object Book { get; internal set; }
 
